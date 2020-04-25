@@ -29,7 +29,7 @@ function App() {
           setShopCart={setShopCart}
         />
       ))}
-      <ShopCart shopCart={shopCart}></ShopCart>
+      <ShopCart shopCart={shopCart} setShopCart={setShopCart}></ShopCart>
       <Footer fecha={fecha} />
     </Fragment>
   );
